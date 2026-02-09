@@ -1,12 +1,13 @@
-Name: Navin Varshan R Roll No: 23BAD075
+Visualization of Academic Performance Indicators Using R
 
-Visualization of Academic Performance Indicators using R
+Name: Navin Varshan R
+Roll No: 23BAD075
 
-**Objective**
+Objective
 
 To analyze and visualize the internal assessment performance of first-year engineering students across multiple subjects using appropriate data visualization techniques in R.
 
-**Software & Tools Used**
+Software and Tools Used
 
 R Version: 4.4.1
 
@@ -18,12 +19,12 @@ dplyr
 
 tidyr
 
-**Dataset Description**
+Dataset Description
 
 File Name: 1.student_performance.csv
 
-**Description:**
-The dataset contains student internal assessment details including:
+Description:
+The dataset contains internal assessment details of students, including:
 
 Roll Number
 
@@ -37,10 +38,10 @@ Assignment Marks
 
 Final Grade
 
-**Steps Performed**
+Steps Performed
 1. Load Required Libraries
 
-The necessary libraries for data manipulation and visualization are loaded using library().
+Necessary libraries for data manipulation and visualization are loaded using the library() function.
 
 2. Import Dataset
 
@@ -48,7 +49,13 @@ The dataset is imported into R using the read.csv() function.
 
 3. Data Preprocessing
 
-An additional column Average_Marks is calculated by averaging Internal Test 1, Internal Test 2, and Assignment marks.
+A new column, Average_Marks, is computed by calculating the mean of:
+
+Internal Test 1 Marks
+
+Internal Test 2 Marks
+
+Assignment Marks
 
 4. Data Visualization
 a) Bar Chart – Subject-wise Average Marks
@@ -61,30 +68,24 @@ b) Line Chart – Performance Trend Across Tests
 
 Shows the trend of average student performance across internal tests.
 
-Useful for understanding improvement or decline in performance.
+Useful for analyzing improvement or decline in performance over time.
 
 c) Pie Chart – Grade Distribution
 
 Represents the distribution of final grades among students.
 
-Helps visualize overall academic outcomes.
+Provides a clear overview of overall academic outcomes.
 
-**Output Generated**
+Output Generated
 
-Bar Chart with subject-wise average marks
+Bar chart showing subject-wise average marks
 
-Line Chart showing performance trend across tests
+Line chart depicting performance trends across internal tests
 
-Pie Chart showing grade distribution
+Pie chart illustrating grade distribution
 
-(Screenshots of code and outputs are included separately)
+(Screenshots of the code and outputs are included separately.)
 
-**Conclusion**
+Conclusion
 
-The visualization techniques used in this experiment effectively highlight subject difficulty, performance trends, and grade distribution. Such analysis helps academic institutions identify weak areas and improve teaching strategies.
-
-**Notes**
-
-Warning messages related to package build versions do not affect execution.
-
-Rtools is not required as binary packages are used.
+The visualization techniques used in this analysis effectively highlight subject difficulty levels, performance trends, and grade distribution. Such insights can help academic institutions identify weak areas and improve teaching and evaluation strategies.
